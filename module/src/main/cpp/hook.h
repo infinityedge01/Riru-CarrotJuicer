@@ -12,7 +12,7 @@ int isGame(JNIEnv* env, jstring appDataDir);
 
 void* hook_native_thread(void* arg);
 
-#define GAME_PACKAGE_NAME "jp.co.cygames.umamusume"
+#define GAME_PACKAGE_NAME "com.komoe.kmumamusumegp"
 
 #define HOOK_DEF(ret, func, ...) \
   ret (*orig_##func)(__VA_ARGS__); \
